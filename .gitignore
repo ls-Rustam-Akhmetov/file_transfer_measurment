@@ -45,11 +45,10 @@ htmlcov/
 
 # Poetry files
 /.venv/
-/poetry.lock
-/pyproject.toml
 
 # FastAPI generated files
 /.mypy_cache/
 /.pytest_cache/
 *.ini
 test/
+
