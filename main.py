@@ -1,0 +1,5 @@
+from paramaiko_adapter import paramiko_sftp_send_file, paramiko_sftp_remove_remote_file, paramiko_scp_send_file
+from performance_test import performance_test
+
+performance_test(paramiko_sftp_send_file, paramiko_sftp_remove_remote_file, 1)
+performance_test(paramiko_scp_send_file, paramiko_sftp_remove_remote_file, 1)

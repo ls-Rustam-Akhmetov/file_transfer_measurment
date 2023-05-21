@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Local development settings
+/.env
+/.env.local
+*.bak
+
+# Database files
+*.sqlite3
+*.db
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.log
+
+# Poetry files
+/.venv/
+/poetry.lock
+/pyproject.toml
+
+# FastAPI generated files
+/.mypy_cache/
+/.pytest_cache/
+*.ini
+test/
